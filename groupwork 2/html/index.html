@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ka">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>our site</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: url(./gif\ comb.gif) no-repeat center center fixed;
+            overflow: auto;
+            height: auto;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            background: linear-gradient(to bottom, #0077a6, #005f85);
+            padding: 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            transition: background 0.3s;
+        }
+
+        nav ul li a:hover {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 4px;
+        }
+
+
+        .content {
+            padding: 20px;
+            line-height: 1.6;
+        }
+    </style>
+
+
+</head>
+
+<body>
+   
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                padding: 20px;
+            }
+
+            .search-box {
+                margin-bottom: 15px;
+            }
+
+            input[type="text"] {
+                padding: 8px;
+                width: 180px;
+                border-radius: 4px;
+                border: 1px solid #888;
+            }
+
+            button {
+                padding: 8px 12px;
+                border: none;
+                background-color: #0077a6;
+                color: white;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: #005f85;
+            }
+
+            ul {
+                list-style: none;
+                padding-left: 0;
+            }
+
+            li {
+                padding: 4px 0;
+            }
+        </style>
+    </head>
+
+    <body>
+
+    </body>
+
+    </html>
+
+    <nav>
+        <ul>
+            <li><a href="./about.html">ჩვენს შესახებ</a></li>
+            <li><a href="./football.html">ფეხბურთი</a></li>
+            <li><a href="./basketball.html">კალათბურთი</a></li>
+            <li><a href="./register.html">რეგისტრაცია</a></li>
+            <li><a href="./volleyball.html">ფრენბურთი</a></li>
+            <li><a href="./rugby.html">რაგბი</a></li>
+            <li><a href="./tennis.html">ჩოგბურთი</a></li>
+            <li><a href="./contact.html">კონტაქტი</a></li>
+        </ul>
+    </nav>
+
+
+ 
+    <center>
+        <br>
+        <video controls autoplay muted width="750" src="./FIND YOUR PASSION _ Nike Spec Ad _ Sony A6400.mp4"></video>
+
+    </center>
+
+   <img src="https://cdn.discordapp.com/attachments/1369675661538623631/1406273805361483836/sport_side.png?ex=68a1de0a&is=68a08c8a&hm=2090887c20f8c0a2f98800ebecd81bafcceeacafe23e04b42b6cb6da4a4fb553&" alt="" width="150">
+
+
+
+    <br><br><br><br><br><br><br>
+
+    <h3 class="h3">ახალი დამატებულები</h3>
+
+    <div class="products">
+
+        <div class="product">
+
+            <img id="shoes"
+                src="https://cdn.discordapp.com/attachments/1369675661538623631/1405901310666215486/nike-kd-11-ep-blue-yellow-ao2605-900-1.png?ex=68a08320&is=689f31a0&hm=682daac6b7808535bd3e6feae1368ae16ff81610383fcbb87a62c42caa1f5ab9&"
+                alt="" width="300" class="image">
+               
+
+            <p style="font-size: smaller;">ზომები 36 – 45</p>
+
+            <p style="color: rgb(128, 128, 128);"><b>price $300</b></p>
+
+            <button id="addBtn">Add to Cart</button>
+
+            <script>
+                const button = document.getElementById('addBtn');
+
+                button.addEventListener('click', () => {
+                    button.textContent = 'Added';
+                    button.disabled = true;
+
+                    setTimeout(() => {
+                        button.textContent = 'Add to Cart';
+                        button.disabled = false;
+                    }, 2000);
+                });
+            </script>
+
+</div>
+
+
+        
+
+        <div class="product">
+            <img src="https://cdn.discordapp.com/attachments/1369675661538623631/1406021629133455443/Screenshot_2025-08-16_010544.png?ex=68a0f32f&is=689fa1af&hm=f1f6bf443a838ab0f151fb85c09901194db0d09b5a9aa5466a3def64678dce17&"
+                alt="" width="300" class="image">
+
+            <p style="font-size: smaller;">ზომები 37 – 45</p>
+
+            <p style="color: rgb(128, 128, 128);"><b>price $270</b></p>
+
+            <button id="addBtn">Add to Cart</button>
+          
+
+        </div>
+
+        <div class="product">
+            <img src="https://gophersport.com/media/wysiwyg/Volleyball-Cat_1.png" alt="" width="300" class="image">
+
+            <p style="font-size: smaller;">ზომები 3 - 4</p>
+
+            <p style="color: rgb(128, 128, 128);"><b>price $120</b></p>
+
+            <button id="addBtn">Add to Cart</button>
+
+        </div>
+
+        <div class="product">
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Gilbert_Rugby_Union_ball_02.jpg/2560px-Gilbert_Rugby_Union_ball_02.jpg"
+                alt="" width="300" class="image">
+
+                <p style="font-size: smaller;">ზომები 3 - 5</p>
+
+                <p style="color: rgb(128, 128, 128);"><b>price $80</b></p>
+
+                <button id="addBtn">Add to Cart</button>
+    
+        </div>    
+   </div>
+
+
+</body>
+
+</html>

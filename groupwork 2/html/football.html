@@ -1,0 +1,742 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="football.css">
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: url(./html\ gif123.gif) no-repeat center center fixed;
+            overflow: auto;
+            height: auto;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            background: linear-gradient(to bottom, #0077a6, #005f85);
+            padding: 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            transition: background 0.3s;
+        }
+
+        nav ul li a:hover {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 4px;
+        }
+
+
+        .content {
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+
+
+
+
+        .add-to-cart {
+            background-color: #007B8A;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .add-to-cart:hover {
+            background-color: #005F6B;
+
+            
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="./index.html">მთავარი</a></li>
+            <li><a href="./basketball.html">კალათბურთი</a></li>
+            <li><a href="./volleyball.html">ფრენბურთი</a></li>
+            <li><a href="./tennis.html">ჩოგბურთი</a></li>
+            <li><a href="./rugby.html">რაგბი</a></li>
+            <li><a href="./about.html">ჩვენს შესახებ</a></li>
+            <li><a href="./contact.html">კონტაქტი</a></li>
+            <li><a href="./register.html">რეგისტრაცია</a></li>
+        </ul>
+    </nav>
+
+
+    <center>
+        <br>
+        <img id="123" src="https://fcdn.belive.ge/livege/media/64279/0_04-1024x576.jpg" alt="" width="600">
+
+    </center>
+
+
+
+    <img src="https://cdn.discordapp.com/attachments/1369675661538623631/1406273805361483836/sport_side.png?ex=68a1de0a&is=68a08c8a&hm=2090887c20f8c0a2f98800ebecd81bafcceeacafe23e04b42b6cb6da4a4fb553&"
+        alt="" width="150">
+
+    <div class="products">
+
+        <div class="product">
+            <img src="https://thumblr.uniid.it/product/256328/fba613707bac.jpg?width=3840&format=webp&q=75" alt="" width="300" class="image">
+
+            <p style="font-size: medium;color: #007B8A;"><b>Nike Football Flight</b></p>
+
+
+           
+
+            <p style="color: rgb(128, 128, 128);"><b>price $80</b></p>
+
+            <button class="addBtn" style="
+            background-color:#28a745;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            font-size:14px;
+            border-radius:6px;
+            cursor:pointer;
+            transition:0.2s;
+          ">Add to Cart</button>
+
+        </div>
+
+        <div class="product">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxQTEhUTExIVFhUXGBUYGBUWFhcdGhYXFxgXFx0aFxcaHSggHRolGxgXITEiJSkrLi8uFx8zODMtNygtLisBCgoKDg0OGhAQGzUlICUtLS0tLS0vLisvLy0tLS0tLS0tMC0rLy0tLS0tLS0tLS0vLS0tLS0tLS0vLS0tLS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABQIDBAYHAQj/xABIEAABAwEFBAYIAgcHAwUBAAABAAIRAwQFEiExQVFhcQYTIoGRoQcyQlKxwdHwYpIUQ3KCorLhFSMzU8LS4haD8SREVHOzCP/EABoBAQADAQEBAAAAAAAAAAAAAAACAwQBBQb/xAAtEQACAQMEAAQFBAMAAAAAAAAAAQIDBBESITFBBRMUkSIyUWHBQnGBoSNSsf/aAAwDAQACEQMRAD8A7iiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCKirUDRJUJdt9uqWh1ItAADucg/RATyIiAIiIDx0xlrxWI62Fphze8fQrIrVg0SfBRVWqXGSuAlKVoa7Q923wV1QZCv0rY5ozzGyTt2ZpkEqis2avineNQry6AiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIixL0tGCmTtPZHM/0koDEt1pxOgaDzKw69mDiHAlrxo9uo+o4FWadUDl8OZ+SyAdyNNHFJMvWS9KjThrMkbKtMEg/tM9Zp5SOSlhWb7w8VCB6pNbiuZOk66u0e0PFYde37G+P9FgNcVSeaZBW+rOZPiqA8nYvGtC8jtE4soADcoBzz35/JcBUyoBOKMtgVNmeXukggDYVWCF610SI1QHtF8kkGM9R8FdbbHF+R0BPgRs8VjMo5a6quzUwC7PYAgJehbGu2wdxV1tUEwCJ3SoJjoGYncvaM4icwY8IOxdyCfRRlG2v4EeHmFdo3iCYMDTMHSZifBdBnIiIAiIgCIiAIiIAiIgCIiALXOkNp/vA2cmDPPa7f3Acc1sa0C2WvG97sWTnOMjUNGQI3dkDPuCnTjllVaWlGVYxidJB4TlA3hvs7t6lKtnyycRx18yoy53SJ4iOA3cctqkauPOSIk+GzyUpPchBbGKbQ8GMiBsbm49xIVQvQaEBp3O9b8oUVergNOMxz3qJ/tWq0wHS2Ywugj+LRdUU+iDm4vk291sG0x+0Q0eGviqm1QdJPIZeJWq2S92g50gHH2qX/OR5hTtltjHQA7M7H5Hw9XzUZRSLISkzHtdotNIk9W2qz8Jh4HLb3K3ZulNA5PxU3bQ9ungthY1Y9tuylVEPY13MZjkdQopx7RoTXZTZ7bTf6j2u5EK/3rWLw6GNOdF5adgdmO46jzUDa6l4WTOXuYP32+eYHgp+XGXyv3JaU+GdFjivTG0LnNj9JJGVaiDxpmD+V3+5bJdvTax1chWDHbqvZ7pPZJ5FQlSlHlEcGyB3BVB20K0x4IkGRvlVQoAqwDerbaYxcCCPmvLQ0lpw66jjwVqy2oP7J1ieY3hNO2RpeMmY22OaIxabCJ81l2W8Q71hhjbs/wDCwIVJEEH7hDhPMqA6EHkqlrzahBlpIWZSvMj1hPEZFdBKorFC1sfoc9xyKvoAiIgCIiAIiICxb6uClUf7rHO8ASuV9f2QN8eDY+J/lXTb9P8A6at/9dT+UrkYrguBbIaIAmJjjx1Per6XDMlzymb30fodmSsi868KBfexptY1rsPYa4wATLtBG6I8VYtF7B+TjgdsnR3zb8OSl5cn8RX6iCenO5ctUOaXkOIBAIaASMpk7hxgqKZUpe4XDe9+Xg1o+KvVbc5mFrmERhhzIa8CZJa4ZOBEhXnPp1MyMeUzlTqyTEQOxUd3Bdi0uUQqKct4MuUK7NlOmOLtO4EklS9lcAJEDk1rB8JWviyEH+7fJ914DH8mk9l3cVU21OYYc0tP4wcXdKk4Rl8ohUqR+c26jX3afe06q6Ky1inb9/8AEf8ASFmU7d9nJVSpM3QmmTnWISCoxlqBVxtoVbgy7SYF89ELNaJJZhcfbZke/Ye9c/vr0d2ilLqJFZu7R8cjke4rqjbQqxWUoylE7hnCLNedosrsLXVKThq2SPFpyK265fSLXAAqsZVG8dl3fGXkFvl6XXQtDcNam144jMcjqFo17+jktl1lqfuPOfc7TxVqlCXzI7j6mwM6dscOzScHcSI8Rn5LBp3sciDBGYJWnVLDaKBirSe3iWmO52hUhdr3VIa1jieAlaY06cU8F0MI6rd9rFWm142jMbjoR4rJUZcNldSota71syRuk6KQxrzZLfYztb7FRVBC8L1T1i5gYPSxX6Nue3biG531WNjVJcmBgl6V7N9oFvmPr5LLo2pjvVcDwnPw1WtOVl67gaTcUWo0b2qUzrLfdd8jsWzWG1tqsD26HZtB2grmDjWDIREQ4UV6Qc1zTo4EHkRBXAqlsFOo6mQ6WOc05bWmPkvoBcg9J3R40a5tTB/d1T2o9mpx4O15zwWm10uemXZjvdSp6orgw7Raw95c3ERhpgYQZ7NNjdumYOiodVDdZbyBJPMkQse5K5OSmTaY1C9R04xWMnznmzlJtow6N4BsNxNwnPA44ieQmQeIzWZTdTdocJPsvIz5O08Y5qzUtDTqPJY5FP3GzyEquVvGXZop3dSn1sS+Nzcnc4cJByjQ6iFWLS7TIt9x3ab3B0qGZacAhrnAbiSRzwukd6xX218/4h5Q36SqvQz6aNkfEafaa/g2A06Z2Gmd4Mt/KTI7j3LzqKjc2jGPeZnHMHtDvC17+1Hj2m/l/wCSrZfbgZgTvDiPku+lrrrJZG8odPH8MnaVsnbP3uWXStR/8qA/6iDv8WkX/iBAd+YRPfKuU74o7HubwqMP87AQe8BRdGp3BmuneQ6kjZGWlXm1ytbF+Uic6gEb5j4QsmnfFP8AzWZ/ib9VW6TXRuhcRZPCuVWK5URTt7To9p7wrwtQ3jxCrcUaFKLJVtUq42t9hQ/6YN/mrrbZxUXFHcJkuKq9xKJFpJ0+5QVnD77lBwIOBK4l5Kjv0mIxZHelS9KbR2qjG83AeUqGCDJKF4XKAr9LbI3W0U53BwJ8AsCt0+sg0e53JjviYU40qkuIs5ubU96sVasLn9v9I7f1dIn9p0DyWt3h06tVSQ1zGD8LZPi6VYrap2sEtJ1K121rRLnADeSApf0fXoyt14puxNaackaS4O0O+APJcFsFCraq9Km+q4uq1GUwXEugvMTGkCZPAL6P6IdGaVgodTTJcScT3u1e6AJjYAAAB/UqurBQ2yQlgnERFSQCsW2ysqsdTqNDmOBBadoV9EBw69bodYbYaLpLD2qbveYdn7QOR8dqz7a0xiDSeQn4LfOnPR02ukw0462k7EyfaBgObOyYB5tC1S03ZaKbO1Z6hMaNbik7pbIXr0a0akFl7nzV5bzo1swjmLNarWoNLWw5z3YQ2m0dolxgTOkzkNc1sN8dGq1max7mscw4cZBceredh0BbJjFETsG2W6N+j51G0stNau2oWy7AGERUIj1i4yGyYy2Bb1aLO17XMcAWuBa4HQgiCCqat1GMlo3XZup2DlTevZ9fY4nbw5rZa0HuP1WvVLxeXYQ1pJyAAJJJ2AAre7V0ctQ6yk2i98OLWvyhzdjsRIEkRPGVldAPR/VoWgWq0kNczHgpCHZubhxl4MaF2Wewyt7uqUIasrPSMNvZ1Jy0yTNYsHQ231wD+jBgO2qcH8Ml3iFK0fRfaz6z7O3k6of9AXXl6vNl4hVfGEezGxpRXZytvopq/wDy6YO7q3Hzxq1U9Fdo2WmkebXj6rrKKHrq/wBf6RZ6Sl9DjFr9GlvaJa6jU4NeQf4mgea1u8Ojluo+vZqsbwwuH5mSPNfRa8hWR8RrI76eC4R8rVrRBIMTu2q0LQdg8F9S267aNYRVo06g3PY138wWvWz0dXdU/wDbBh303OZH7oOHyWmn4mv1p/0zvlNcHz/Sc539VbtD8O3Pgtq6Z3Q2wW40Gyabmsewu1wulpBIEGHNd3QoGw3a61WkUaYmo9wa0HQalzidgAkngF6vmwlSU1w/qSpam2mRpvN49twH7Z+qybNabRUIFPrHExAaXEk8I1XeegfQKlYWE1OrrV3OJ63qx2GwAGMmSBlJOUk8lP8A9gUevbaA2HgHIQGknLERvic+K8ep4gstRX8ljlLo4JR6E3pWz6ir++7Cf4yFEdIeiVqsZYbRSwB84XS1wJGrSWnJ0ZwdmmhX1MobpfcotdkrUCAXOaSwn2ajc2H80d0qiF7PWtXHsdyfL/6G6JW7+jr0fut01apLLO0kSPWqOGoZsAG12eeUaxl3Z6M7fWAxtZQG3rHAu7mMnzIXaLguttms9KztMimxrZiMRAzcRvJk96uvK8EsU3lllTSuDXKvowu00zT/AEcifbFSpjB34sXkRHBcrvz0ZWylaRQoUjXY7NlYQGhu6qTkxw89m4fQyLDTuJwzj+yCk0aR0C9H1OwtFSrgq2mZD8OVKRBFInPfLsieC3dEVUpOTyzjeQiIuHAiIgCIiAIiIBCIiAIiIAiIgCIiAIiIDBvK5rPaI6+hSqxp1jGujkSMlh3N0UsdlealCzsY8yC/tOdBzIDnEkDTIblNIpapYxnYBERRAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAERW6tdrfWcBzKAuIoS29KbNT9svPu0xiPjoO8qFtHTOq6RSotbxqOk/kZ/uV8LarPhEXOK5Zuqt1q7WCXua0b3EAea4zfXTS0dZgNpc4mYZTGEE8254RtJK0s346q5/6RBOZzGQ5bcjvnVaF4fNfM/yIzUng+havSqxNMG2Wed3WsPwK8HS2xbLVSPJwPwXzrZ67YL2s7IyDnSA52uFrRmY255LJoXjaDo1kfsn44lph4bCS3k/YtUT6Ls9+2Z/qWiiSdgqNnwmVngr5kttuqtaXFoMZwQrll6VmkGmnWqMnXq3PaGu3EAwd6hV8NUXiM/dCUUj6YRcUun0m2umAX4LRTO1wDXcsbRkf2gVvVw+kex2iGueaDz7NWA0n8NT1fGDwWKpa1YcrP7HHFo3FF4DK9WciEREAREQBEWLedvZQpuqVDDR4k7ABtJRLJxtJZZkkqGvLpRZqPrVWnkRrumYnhK510l6Y1Ks54WbKc5Bo1L/AHj5cFoL6lSu7sy7XtEbD5AfYhehRsHPeR59W+SeI+53JnTSm8ltPCSATmXEwOAHzUDbfSjRYYNQA8KFY+YC5oLq6oF9R5cdjcRzO4n+iu3rYywU3gSHNkw0ZHcDrC1OxpLZcmVXs28529jfmekym/1bVTHBzHM/mAV8dMqpza9rhvaZHiJXIjWZjh1LECJl3qneA4ZsdEZ8dmROTVuqGG0WYFzW/wCIySKtLmR6zOIGW3eoKhBZylsWyqz23aydapdMHna7uwn4rJZ0rfvd+UfVcdsV5vcOyXj97F5ukrPp2m1OHYxHw/2rvpqL4OedWXLOrjpRU3H+Ef6laf0orHQNH7x+AC5ZVZbjOKuKY7p8oUZWsTTPX2mtV3tL3YeUSnpqa6/BYq1R/q9tzpV5dNMJwutIxbKbCC48A2XO74UebdXrEAN10DiXHwMAeHgtCF706HZo02sO0jZzOsqTsloqOp47RUdSoO9gZVa/ADVrPjtV9ONNbRW5yTqds2pjS4GKvZGT6w9Vu9tLe7e7Zsz01y+OkYa00bMIaMi/fzP38lgXtfL6wFNrerpDJtJupHFRt53bgolzwZOTWDYTv3nb3LRKSprf2J00k/i5PLNaDRdjLprOAMn9W05gx7xEEDYCOSxQHVSXScOhI1cdzRtPFZFtaLRWLg1xxGcIB27ydAthu+7sIEgSNANG8vqqqjS2z7Fkq0aS1PkxrPdYeWmoIa0BrKQ9VjfmScydpKmKd00m/qwOIyVYpqXc0dWyTkRnwOengszbR5s7mpNt5IK1XQxwMOeP3iR4GVpt63WbM4u9emcnNP3ruXQyIdB+wte6V0j2AGlzS5pdHuggkd8EI28rcvtripKajJ5/ci7NZm0DUmocAZJ0yJExG0glo5lWLptzXuw1G9lx093cZ4beHJW6V2PrVCXycRJIEgazmSPgthsVxuaMVN5aR7oblxzBMd60SrKMk+EetG4hSwpP8mVdPSq1XdW6mlVL2CD1FUEtLT7h9naMiMxoV17ol03oW3sCaVeM6Lzmd5Y7R4894C4fe7DUDesA61khrh6tVp1ZwftHEcVCOvaqwsaTOEyx/qv4DEM8QOhOcrPcW1OonOJbKUZvMeGfWaLnno06efpUWa0OBrAHBUy/vgNQYy6wRnGsE7CuhryJwcXhkWsBERROBcs9I19YqrmT/d0co96ode/MN8V1CvVDWucdGgk8gJXA75tBLatoIxYHdYRvdUfAJ4Akla7OK1OT6PP8Qm1BQXbMQ2Q1M6vZZqd5PujgPiqa94Bgw02wPvxUvTYBTDndp5AJO6RMNC1i1vJcez4/f3C9OpVeMRPJoQ1P4ui3VtLnGXH+il7Leww9XUjDxUDijZ5j72jxVupWPuPPcBPfiy81mU3F5PQlTjOOCUva6pnC2WHUZ6fe1eXVaX0HhweWQIEgnIDQmcxzVi5X2pxDGdrMyIlrW/tTkZnKeamLxpCmJeWl3usBJW2lVUt9O5lkpQ+BtNFNG20C8uNNsEyermJ5Qsu23vSAin1ngGjuJk+Sh3WoOblUjg5hAPIgFRz7SQ44mkg+02SPCJHOF1yXOkshRUnuWb3tUnN7huAcZ7vr5LAdaKjyGMB+fMnYs6rdPWS4OMmYIgxwwmNOas0rBWpGQHPb+Bxa4RtwnI8s1RKE3LLW32NkZxisJmdY7AygMbg19QSZd6lOImGauInUwOBVymypXdjzcTrUf8huUZVs9RzSWGZEHEHB4GWsngM+e9Xru6Q1aHZqMlukgQR8u7JTdV0liMcfc5pbTcXlm13ddjWZ6uOrj8twUsbuJGYG+CROXBRF031Sq5tdn7pyI7lL/pJ3qhty3POllSfmZyXmXKcOIYctkhWhYnB0EbVdbbyBENPNo+iuU7wG2mzwhQ+NHf8AGyi22AtmNhg596uWRktg7W5dxPzlVvvCmdafwWeyvSDRLYEa8ydyi5yXKJxpRb+GRAWoad48D/UL2vSkd0j5/fBS7hQd7vjCyjZqZ2DIRkT9VF1l9CcbVvdNGrUaAPBSV02ch53AeMxClqVhpt9keJV3CBAAgBVzrJrCRdStZRacma90hulsYgAWnUbOa0u33UX9gnM5NccsR2Ak+3sB9rQ5xPSb0qAUnTt05rV8DXNc14lpHnlp97Fbb1ZRWS1VfJq46fKNHpVK1lfJJY9jw9jhIcHAjP73L6b6GX8LbZKVoGTnCHgbHtyd3TmOBC+Y+kjnFwkzAInfBLZ7wJ712H/+f7Qf0e0Ujo2oxw/fZB/kChdxTW3X5PVqYxsdWREWAqMa86BqUajBq5j2jmQQuH0q3Vue17MTXAsqMO0HXvC7yuV+kK5TSrGs0f3dTMx7L9oPPXvK2Wc0pOL7PP8AEaTlBSXRqVnq02DAajmA+oXAlpG6dQRuM84zVi0S3MgFuxzdN6yn02vbhcJGeQ1ngd6i7HedSzmBEH2H5jWMxsXp6IPh4Z5MHJPdGZSa1w7KyLHdXWHPssHrO3feiwqV50ap9mjU59h3Pcsu877LWdU1sZT2SHF3gdORXHTa5JuUk8I8vi92UWdXSGEaBoIl54k6/Kd+S1ehbqznFodm+MQABznKCRIjeDrKtWl7jnhIOfafAInWJ2cs9eM1WWz1YikMM61XAjL8A1jjHgpxel7cGiEFGOXz9ycp0GUh2nDFtJO1Yta+KA9sHlmrQuqmM39s73T8J+ZV6hZZypUp4taAO8iArXKfLaRyEVJ9ssNv6jsnuYfoqxflM+9+R30We246x1wDmST5ArIf0ae0dqrTB93CSe8bO/NV+oWfnXszSqMfp/ZDutTHeq/PcZ+asVKc8D5H+imD0eqbHUzzBHwBVitddoaM6WIfgIPlr5LTC5ptYbJKDXBr1psLZxQabtj2ad42d3gVm2G/6tGBXGNmnWN+f0yKrfVgwQQdrSII7irBAGbTG8bDzGhChUtIT+KDJvEliaM+9LXUqFj6FeGHLsgGDvIIXthvWo04alanU5SHcxkAeWRyUbSazYTRf7zT2HH8QOQ+Cptdj/WUu0ye0NrHbRG7d/RVK2+H7jyoJaWtjcqVpBGRUg+vkBuC0a67xg4CQNMJJyB2NcfdOgds5LY7Law6QZDgYc06tO4hZpRwY69rKnut0ZoOa9NYjMFUByt1qgAUW0ZYqWSP/wCpq7XPBMBpyku036H5aqQsXSd9TLEAdkYSDyIWo2y1h9fADhxQGOEz1k5RGw6d6x3Yqcuwlrmk42xElpgng4b+MKfkwlDKX7nuQpKcdPDwbzWtRdm5xKirytgaIBzOnDioht8PLey5vM6+Gh7lGVnlzgHE9o9p20N2x8O9I0Xy+CmlYyUtVR7f9JOpWOHGIaDk0wCXNZ6zj+ARhHvOK6p6CbM4UrVVIgOdSZ+8xhcf/wBAuUXZd1W0V20qTS97yAxgyyZpi92m3InkF9JdFLjbY7LTs7TJaCXu997jLnd5OXCFmvqv6T0pT1Il0RF5pWFYttkZVY6m9oc1wgg/eqvogOT9I+htagS+kDUpa5es0cR81qVodseI4OH1X0Koy8Lgs9b/ABKTSd4yPiPmtlO7a+ZZMNSyT3g8HBKLWMJLQ3PeJVFTqzqxngfquw1/R3ZT6pc3uafksY+jemPVrR/2x8nBalfxMzsZ5yclptE9imJ/C356rIpWKq85COJ+JP1XVR6PW/55P7n/ACWRS6B0vaqvI3ANA8IKjLxD/UsjZy7OYU7spiMUvdtJ9Xubu5+SlaFmO7COXwb9hdJs/RCzN9lx4lxnyhZTOjtnH6r+J31WSdw5vMjXGhp2RzinRI9QEfi9o9+zu8Svad2Lpn9jUP8ALHifqvRdFD/KaeYn4qHnNcFiprs5wLujUrwWVvvjxC6Mbjs5/UUvyBUm4bN/kU/yhc86RNRSOb2m62VBD2NeOIB8CoK29DaTs2F1M88TfA5+a7C7o3Zf8ho5SPgVQejFn914/wC4/wCZVkLmcOGSxH6HALd0XtFOSGio3ezX8pz8JUfY6RpiqGsIe5hbgOQExnhO3Lgvo3/pehuf+ZYtq6FUH6lx5hpjkYlaV4jLlkHTi1g+aK9IyWukHKfv72LKstUuGFxOIRhdnmNMJOoIyjYu1Xp6IbPVJc2tUY7gJHgSVrds9CtcE9XaqbhsxtcD5SrqV7TzlvckttjnjrTUBgveOZKqbVn1pPMk/FbdU9D14A9k2c8escP9Crs3ofvAmHvs7Bvxud5Bi0est1vsEorhGmMr9W6aYOM+vUj1RsazcN52nhrZtFoLspy2rqti9Cp/XWw8qbPm4rZLu9Et304L21Kp/G8we5sLNK/hwuBHY4JRYXEMptc950a0FzjyAzK3Xo56K7baSHVgLNT3vzqEfhpg5fvEd67pdl0ULO3DQo06Y/A0CeZGZWcs9S/nJYisIk5MguivROzWBmGgztGMdV2b3xvdu4CAp1EWFtt5ZEIiLgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgP//Z"
+                alt="" width="300" class="image">
+            <p style="font-size: medium;color: #007B8A;"><b>Nike Zoom Mercurial Vapor 16 Elite</b></p>
+
+            <p style="color: rgb(128, 128, 128);"><b>price $145</b></p>
+
+            <p style="font-size: smaller;">ზომები 38 - 45</p>
+            <button class="addBtn" style="
+            background-color:#28a745;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            font-size:14px;
+            border-radius:6px;
+            cursor:pointer;
+            transition:0.2s;
+          ">Add to Cart</button>
+
+            <script>
+                const buttons = document.querySelectorAll('.addBtn');
+
+                buttons.forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        btn.textContent = 'Added';
+                        btn.disabled = true;
+                        btn.style.backgroundColor = '#6c757d';
+
+                        setTimeout(() => {
+                            btn.textContent = 'Add to Cart';
+                            btn.disabled = false;
+                            btn.style.backgroundColor = '#28a745';
+                        }, 2000);
+                    });
+                });
+            </script>
+
+
+
+
+        </div>
+
+        <div class="product">
+            <img src="data:image/jpeg;base64,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"
+                alt="" width="300" class="image">
+
+            <p style="font-size: medium;color: #007B8A;"><b>Shin pads</b></p>
+
+            <p style="color: rgb(128, 128, 128);"><b>price $30</b></p>
+
+            <button class="addBtn" style="
+            background-color:#28a745;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            font-size:14px;
+            border-radius:6px;
+            cursor:pointer;
+            transition:0.2s;
+          ">Add to Cart</button>
+
+
+
+
+        </div>
+
+        <div class="product">
+            <img src="https://advantagegk.com/cdn/shop/products/GripSocksFinal.png?v=1669076953" alt="" width="300"
+                class="image">
+
+            <p style="font-size: medium;color: #007B8A;"><b>Grip socks</b></p>
+
+            <p style="font-size: smaller;">ზომები 38 - 45</p>
+
+            <p style="color: rgb(128, 128, 128);"><b>price $25</b></p>
+
+            <button class="addBtn" style="
+            background-color:#28a745;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            font-size:14px;
+            border-radius:6px;
+            cursor:pointer;
+            transition:0.2s;
+          ">Add to Cart</button>
+
+
+
+        </div>
+
+        <div class="product">
+            <img src="https://lovellcdn.b-cdn.net/products/1538227.jpg?width=700" alt="" width="300" class="image">
+
+            <p style="font-size: medium;color: #007B8A;"><b>Goalkeeper gloves</b></p>
+
+            <p style="color: rgb(128, 128, 128);"><b>price $230</b></p>
+
+            <button class="addBtn" style="
+            background-color:#28a745;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            font-size:14px;
+            border-radius:6px;
+            cursor:pointer;
+            transition:0.2s;
+          ">Add to Cart</button>
+
+
+        </div>
+
+        <div class="product">
+            <img src="data:image/jpeg;base64,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"
+                alt="" width="300" class="image">
+
+
+            <p style="font-size: medium;color: #007B8A;"><b>Gear bag</b></p>
+
+            <p style="color: rgb(128, 128, 128);"><b>price $130</b></p>
+
+            <button class="addBtn" style="
+            background-color:#28a745;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            font-size:14px;
+            border-radius:6px;
+            cursor:pointer;
+            transition:0.2s;
+          ">Add to Cart</button>
+
+
+
+        </div>
+
+
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyBM6uNNhaJAqEz2jI80J9JGJlM9npvNcxyw&s"
+                alt="" width="300" class="image">
+
+            <p style="font-size: medium;color: #007B8A;"><b>Football uniform</b></p>
+
+            <p style="font-size: smaller;">XS - XXL</p>
+
+            <p style="color: rgb(128, 128, 128);"><b>price $70</b></p>
+
+            <button class="addBtn" style="
+            background-color:#28a745;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            font-size:14px;
+            border-radius:6px;
+            cursor:pointer;
+            transition:0.2s;
+          ">Add to Cart</button>
+
+
+        </div>
+
+
+        <div class="product">
+            <img src="https://soccerwearhouse.com/cdn/shop/products/adidassteel.png?v=1670532139" alt="" width="300"
+                class="image">
+
+            <p style="font-size: medium;color: #007B8A;"><b>Water bottle</b></p>
+
+            <p style="color: rgb(128, 128, 128);"><b>price $40</b></p>
+
+            <button class="addBtn" style="
+            background-color:#28a745;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            font-size:14px;
+            border-radius:6px;
+            cursor:pointer;
+            transition:0.2s;
+          ">Add to Cart</button>
+
+        </div>
+
+
+
+        <div class="product">
+            <img src="https://nwscdn.com/media/snowdog/menu/node/m/a/mannequin_1_1.jpg" alt="" width="300"
+                class="image">
+
+            <p style="font-size: medium;color: #007B8A;"><b>Football Mannequins </b></p>
+
+            <p style="color: rgb(128, 128, 128);"><b>price $400</b></p>
+
+            <button class="addBtn" style="
+            background-color:#28a745;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            font-size:14px;
+            border-radius:6px;
+            cursor:pointer;
+            transition:0.2s;
+          ">Add to Cart</button>
+
+        </div>
+
+
+
+        <div class="product">
+            <img src="https://homerunsports.com/cdn/shop/files/DA5456-102_PHSLH000-2000.jpg" alt="" width="300"
+                class="image">
+
+            <p style="font-size: medium;color: #007B8A;"><b>Nike Vapor Pro 1</b></p>
+
+            <p style="font-size: smaller;">ზომები 36 - 45</p>
+
+            <p style="color: rgb(128, 128, 128);"><b>price $240</b></p>
+
+            <button class="addBtn" style="
+            background-color:#28a745;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            font-size:14px;
+            border-radius:6px;
+            cursor:pointer;
+            transition:0.2s;
+          ">Add to Cart</button>
+
+        </div>
+
+
+
+        <div class="product">
+
+            <img src="https://en-ae.sssports.com/dw/image/v2/BDVB_PRD/on/demandware.static/-/Sites-akeneo-master-catalog/default/dw35a589e4/sss/SSS2/N/K/F/Q/1/SSS2_NKFQ1456_800_197859021307_2.jpg?sw=700&sh=700&sm=fit"
+                alt="" width="300" class="image">
+
+            <p style="font-size: medium;color: #007B8A;"><b>Nike Mercurial Superfly 10</b></p>
+
+            <p style="font-size: smaller;">ზომები 34 - 43</p>
+
+            <p style="color: rgb(128, 128, 128);"><b>price $250</b></p>
+
+            <button class="addBtn" style="
+        background-color:#28a745;
+        color:white;
+        border:none;
+        padding:10px 20px;
+        font-size:14px;
+        border-radius:6px;
+        cursor:pointer;
+        transition:0.2s;
+      ">Add to Cart</button>
+
+
+        </div>
+
+
+
+        <div class="product">
+
+            <img src="https://images.prodirectsport.com/ProductImages/Main/1032291_Main_1955401.jpg" alt="" width="300"
+                class="image">
+
+            <p style="font-size: medium;color: #007B8A;"><b>nike Air Zoom Mercurial Superfly X</b></p>
+
+            <p style="font-size: smaller;">ზომები 36 - 46</p>
+
+            <p style="color: rgb(128, 128, 128);"><b>price $240</b></p>
+
+            <button class="addBtn" style="
+            background-color:#28a745;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            font-size:14px;
+            border-radius:6px;
+            cursor:pointer;
+            transition:0.2s;
+          ">Add to Cart</button>
+
+
+        </div>
+
+
+
+        <div class="product">
+
+            <img src="https://www.sportsdirect.com/images/products/82819674_l.jpg" alt="" width="300" class="image">
+
+            <p style="font-size: medium;color: #007B8A;"><b>nike premiere League Academy Football</b></p>
+
+            <p style="font-size: smaller;">ზომები 1 - 5</p>
+
+            <p style="color: rgb(128, 128, 128);"><b>price $130</b></p>
+
+            <button class="addBtn" style="
+            background-color:#28a745;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            font-size:14px;
+            border-radius:6px;
+            cursor:pointer;
+            transition:0.2s;
+          ">Add to Cart</button>
+
+        </div>
+
+        <div class="product">
+
+            <img src="https://cdn.shopify.com/s/files/1/0314/1055/2965/products/DN3607-100-PV.jpg?v=1696602355" alt=""
+                width="300" class="image">
+
+            <p style="font-size: medium;color: #007B8A;"><b>Nike Park Team - 2.0 Football</b></p>
+
+            <p style="font-size: smaller;">ზომები 1 - 5</p>
+
+            <p style="color: rgb(128, 128, 128);"><b>price $75</b></p>
+
+            <button class="addBtn" style="
+            background-color:#28a745;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            font-size:14px;
+            border-radius:6px;
+            cursor:pointer;
+            transition:0.2s;
+          ">Add to Cart</button>
+
+        </div>
+
+
+        <div class="product">
+
+            <img src="https://images.prodirectsport.com/ProductImages/Main/274277_Main_Thumb_1281984.jpg" alt=""
+                width="300" class="image">
+
+
+            <p style="font-size: medium;color: #007B8A;"><b>White Nike Academy Football</b></p>
+
+
+            <p style="font-size: smaller;">ზომები 1 - 5</p>
+
+            <p style="color: rgb(128, 128, 128);"><b>price $90</b></p>
+
+            <button class="addBtn" style="
+            background-color:#28a745;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            font-size:14px;
+            border-radius:6px;
+            cursor:pointer;
+            transition:0.2s;
+          ">Add to Cart</button>
+
+        </div>
+
+
+        <div class="product">
+
+            <img src="https://www.nike.ae/dw/image/v2/BDVB_PRD/on/demandware.static/-/Sites-akeneo-master-catalog/default/dw76d8b55f/nk/17a/0/2/0/d/9/17a020d9_ed18_4682_bbe5_c6010b64f47c.jpg?sw=700&sh=700&sm=fit&q=100&strip=false" alt="" width="300" class="image">
+
+
+            <p style="font-size: medium;color: #007B8A;"><b> Nike Academy Football</b></p>
+
+            <p style="font-size: smaller;">ზომები 1 - 5</p>
+
+            <p style="color: rgb(128, 128, 128);"><b>price $110</b></p>
+
+            <button class="addBtn" style="
+            background-color:#28a745;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            font-size:14px;
+            border-radius:6px;
+            cursor:pointer;
+            transition:0.2s;
+          ">Add to Cart</button>
+
+
+        </div>
+
+
+        <div class="product">
+
+            <img src="https://academy.scene7.com/is/image/academy/20361944?$pdp-mobile-gallery-ng$" alt="" width="300"
+                class="image">
+
+            <p style="font-size: medium;color: #007B8A;"><b>Battle Turf Tape</b></p>
+
+            <p style="color: rgb(128, 128, 128);"><b>price $15</b></p>
+
+            <button class="addBtn" style="
+            background-color:#28a745;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            font-size:14px;
+            border-radius:6px;
+            cursor:pointer;
+            transition:0.2s;
+          ">Add to Cart</button>
+
+
+
+
+        </div>
+
+
+        <div class="product">
+
+            <img src="https://totalsportsaustralia.com.au/wp-content/uploads/2023/03/91Ody3vb6gL._AC_SL1500_.jpg" alt=""
+                width="300" class="image">
+
+            <p style="font-size: medium;color: #007B8A;"><b>Football training arches</b></p>
+
+            <p style="color: rgb(128, 128, 128);"><b>price $35</b></p>
+
+            <button class="addBtn" style="
+            background-color:#28a745;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            font-size:14px;
+            border-radius:6px;
+            cursor:pointer;
+            transition:0.2s;
+          ">Add to Cart</button>
+
+        </div>
+
+
+        <div class="product">
+
+            <img src="https://images.prodirectsport.com/ProductImages/Main/1008442_Main_1750265.jpg" alt="" width="300"
+                class="image">
+
+            <p style="font-size: medium;color: #007B8A;"><b>Footballs Premier League</b></p>
+
+            <p style="font-size: smaller;">ზომები 1 - 5</p>
+
+            <p style="color: rgb(128, 128, 128);"><b>price $125</b></p>
+
+            <button class="addBtn" style="
+            background-color:#28a745;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            font-size:14px;
+            border-radius:6px;
+            cursor:pointer;
+            transition:0.2s;
+          ">Add to Cart</button>
+
+
+
+        </div>
+
+
+        <div class="product">
+
+            <img src="https://images.prodirectsport.com/ProductImages/Main/1019087_Main_1829349.jpg"
+                alt="" width="300" class="image">
+
+            <p style="font-size: medium;color: #007B8A;"><b>Nike Air Zoom Mercurial Vapor 16 SG</b></p>
+
+            <p style="font-size: smaller;">ზომები 35 - 45</p>
+
+
+            <p style="color: rgb(128, 128, 128);"><b>price $225</b></p>
+
+            <button class="addBtn" style="
+            background-color:#28a745;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            font-size:14px;
+            border-radius:6px;
+            cursor:pointer;
+            transition:0.2s;
+          ">Add to Cart</button>
+
+
+
+
+        </div>
+
+
+        <div class="product">
+
+            <img src="https://images.stockx.com/images/Nike-Zoom-Mercurial-Superfly-9-Pro-FG-Luminous-Pack-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1738193358" alt="" width="300"
+                class="image">
+
+
+                <p style="font-size: medium;color: #007B8A;"><b>Nike's Mercurial Superfly 9 FG </b></p>
+
+                <p style="font-size: smaller;">ზომები 37 - 45</p>
+
+                <p style="color: rgb(128, 128, 128);"><b>price $150</b></p>
+    
+                <button class="addBtn" style="
+                background-color:#28a745;
+                color:white;
+                border:none;
+                padding:10px 20px;
+                font-size:14px;
+                border-radius:6px;
+                cursor:pointer;
+                transition:0.2s;
+              ">Add to Cart</button>
+
+
+        </div>
+
+
+
+        <div class="product">
+
+            <img src="https://cdn.flightclub.com/TEMPLATE/394773/1.jpg" alt="" width="300" class="image">
+
+
+            <p style="font-size: medium;color: #007B8A;"><b>Nike's Mercurial Superfly 9 FG </b></p>
+
+            <p style="font-size: smaller;">ზომები 36 - 46</p>
+
+            <p style="color: rgb(128, 128, 128);"><b>price $150</b></p>
+
+            <button class="addBtn" style="
+            background-color:#28a745;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            font-size:14px;
+            border-radius:6px;
+            cursor:pointer;
+            transition:0.2s;
+          ">Add to Cart</button>
+
+
+        </div>
+
+
+
+        <div class="product">
+
+            <img src="https://mhgoals.com/wp-content/uploads/2016/10/Spacemarkers.jpg" alt="" width="300" class="image">
+
+
+            <p style="font-size: medium;color: #007B8A;"><b>Flat cone markers</b></p>
+
+            <p style="color: rgb(128, 128, 128);"><b>price $20</b></p>
+
+            <button class="addBtn" style="
+            background-color:#28a745;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            font-size:14px;
+            border-radius:6px;
+            cursor:pointer;
+            transition:0.2s;
+          ">Add to Cart</button>
+
+            
+
+        </div>
+
+
+
+        <div class="product">
+
+            <img src="https://3.kixify.com/sites/default/files/imagecache/product_full/product/2025/01/14/p_34857571_200578723_11802471.jpg" alt="" width="300" class="image">
+
+
+            <p style="font-size: medium;color: #007B8A;"><b>Nike Vapor Edge Pro 360 2 Volt</b></p>
+
+            <p style="color: rgb(128, 128, 128);"><b>price $145</b></p>
+
+            <button class="addBtn" style="
+            background-color:#28a745;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            font-size:14px;
+            border-radius:6px;
+            cursor:pointer;
+            transition:0.2s;
+          ">Add to Cart</button>
+
+
+        </div>
+
+
+
+
+
+
+</body>
+
+</html>

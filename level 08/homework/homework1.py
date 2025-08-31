@@ -1,0 +1,13 @@
+mom=int(input("enter your age:"))
+dad=int(input("enter your age:"))
+brother=int(input("enter your age:"))
+grandma=int(input("enter your age:"))
+grandpa=int(input("enter your age:"))
+me=int(input("enter your age:"))
+
+print(mom+25)
+print(dad+25)
+print(brother+25)
+print(grandma+25)
+print(grandpa+25)
+print(me+25)

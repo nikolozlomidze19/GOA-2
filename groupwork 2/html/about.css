@@ -1,0 +1,18 @@
+.h2{
+    text-align: center;
+}
+
+.p2{
+    text-align: center;
+    
+}
+
+body { 
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: url(./star\ gif.gif) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    overflow-y: auto;
+}

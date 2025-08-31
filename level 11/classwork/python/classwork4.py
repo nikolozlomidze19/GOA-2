@@ -1,0 +1,6 @@
+name=input("enter your name:")
+lastname=input("enter your lastname:")
+age=int(input("enter your age:"))
+favorite_color=input("enter your favorite color:")
+height=int(input("enter your height:"))
+print(name,lastname,age,favorite_color,height)

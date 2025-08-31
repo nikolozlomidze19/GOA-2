@@ -1,0 +1,6 @@
+name=(input("enter yout name:"))
+last_name=(input("enter your lastname:"))
+age=(input("enter your age:"))
+hobby=(input("enter your hobby:"))
+city=input("enter your city:")
+print(name,last_name,age,hobby,city)
