@@ -1,12 +1,12 @@
-list=["nikolozi", "luka", "giorgi", ]
-
-if type (list)==str:
-    print[-3:]
+data = [123, "hello", 45.6, "world", True, "Python"]
 
 
-for i in list:
-    print(i.upper())
+for item in data:
 
-    
-    
+    if type(item) == str:
+      
+        item_uppered = item.upper()
+        
+        print(item_uppered[-3:])
+
 
