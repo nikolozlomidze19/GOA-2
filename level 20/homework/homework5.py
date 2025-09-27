@@ -1,8 +1,7 @@
-list=["dog", "cat", "lion", "tiger" , "snake"]
+animals = ["Dog", "Cat", "Lion", "tiger", "Wolf"]
 
-for i in list:
-    if len(list) <5:
-        print(-1)
-
-else:
-    print("this word is long")
+for i in animals:
+    if len(i) <= 5 and i.istitle():
+        print(i[:3])   
+    else:
+        print("this word is long")
