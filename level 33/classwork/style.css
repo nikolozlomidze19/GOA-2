@@ -1,0 +1,45 @@
+.sh{
+
+
+text-decoration: dashed;
+color: aquamarine;
+
+}
+
+
+.dt{
+
+text-decoration: dotted;
+color: blue;
+
+}
+
+
+h2:hover{
+
+background-color: blueviolet;
+
+
+}
+
+.xg{
+
+text-decoration: double;
+color: brown;
+
+
+}
+
+
+div{
+    
+background-color: cornflowerblue;
+
+}
+
+.tp{
+
+text-decoration: overline;
+color: aquamarine;
+
+}

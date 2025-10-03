@@ -1,0 +1,45 @@
+.np {
+
+    text-decoration: overline;
+    color: aquamarine;
+
+}
+
+#ec {
+
+    text-decoration: line-through;
+    color: brown;
+
+}
+
+.ck {
+
+    text-decoration: double;
+    color: blue;
+
+}
+
+
+.csk {
+
+    text-decoration:overline;
+    color: blueviolet;
+
+
+}
+
+.ch {
+
+    text-decoration: underline;
+    color: chartreuse;
+
+
+}
+
+div {
+
+
+    color: cornflowerblue;
+
+
+}
