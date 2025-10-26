@@ -15,6 +15,3 @@ num4="nia"
 found=num4.find("i")
 print(found)
 
-
-
-
