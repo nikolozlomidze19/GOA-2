@@ -10,8 +10,6 @@ price={
 
 total=sum(price.values())
 
+
 print(total)
-
-
-
 

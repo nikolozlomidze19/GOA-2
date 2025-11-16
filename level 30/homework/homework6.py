@@ -4,4 +4,4 @@ if len(students_id) != len(set(students_id)):
     print("id repeats")
 
 else:
-    print("hello")    
+    print("hello")

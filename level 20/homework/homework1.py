@@ -1,10 +1,6 @@
+word="hello"
 
-
-name="Nikolozi"
-
-lowered=name.lower()
-if name==lowered:
-    print(lowered)
-
+if word.istitle():
+    print(word.upper())
 else:
-    print(name.upper())
+    print(word.lower())    
