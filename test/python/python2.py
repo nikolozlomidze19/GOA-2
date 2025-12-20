@@ -19,7 +19,41 @@
 
 
 
-animals = ["Dog", "Cat", "Lion", "tiger", "Wolf"]
+# animals = ["Dog", "Cat", "Lion", "tiger", "Wolf"]
 
-for i in animals:
-    print(len[animals])
+# for i in animals:
+#     print(len[animals])
+
+
+
+# num1=9
+# num2=8
+
+# !=---არ უდრის
+# ==---უდრის
+
+# num1 = int(input("enter a number"))
+# num2 = int(input("enter a number"))
+
+# print(num1 > num2 )
+# print(num1 != num2 )
+# print(num1 == num2 )
+# print(num1 <= num2 )
+# print(num1 < num2 )
+
+
+# print(31 % 2)
+
+
+for i in range(1,20):
+    if i % 2 != 0:
+        print(i)
+
+
+
+
+
+
+
+
+

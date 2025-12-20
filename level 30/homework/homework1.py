@@ -15,10 +15,3 @@ print(students["Nick"])
 
 
 
-
-
-
-
-
-
-

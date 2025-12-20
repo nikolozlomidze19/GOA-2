@@ -1,0 +1,95 @@
+body {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#background {
+    height: 100vh;
+    background-color: #19A1AE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#img{
+
+width:420px;
+
+
+}
+
+#face {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+
+
+}
+
+#outer_layer {
+
+    background-color: white;
+    height: 450px;
+    width: 420px;
+    border-radius: 22px;
+
+
+}
+
+#inner_layer {
+
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+font-weight: bold;
+position: absolute;
+top:400px;
+
+
+}
+
+
+
+
+#London{
+
+
+color: gray;
+font-size: smaller;
+
+}
+
+#desc{
+
+display:flex;
+align-items: center;
+justify-content: space-around;
+flex-direction: column;
+
+
+}
+
+#desc img{
+
+width: 420px;
+
+
+}
+
+#social_stats{
+
+display: flex;
+justify-content: space-evenly;
+text-align: left;
+gap:70px;
+
+}
+

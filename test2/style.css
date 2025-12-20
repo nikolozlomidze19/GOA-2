@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#backimg{
+display: flex;
+width: 100%;
+position:absolute;
+top: 0px;
+
+}
+
+
+
+#background {
+height: 100vh;
+background-color: #E0E8FF;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+
+#outer_layer {
+
+background-color: white;
+height: 700px;
+width: 450px;
+border-radius: 22px;
+
+
+}
+
+
+#colo{
+
+display: flex;
+align-items: center;
+justify-content: center;
+width:450px;
+height:220px;
+background-color:#382AE1;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+
+}
+
+
